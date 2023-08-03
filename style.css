@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 1000px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: black;
+  font-family: "Rubik";
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 230px);
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+  grid-template-areas:
+    "profile work play study"
+    "profile exercise social selfcare";
+}
+.activity {
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(235, 46%, 20%);
+  color: white;
+  border-radius: 10px;
+  position: relative;
+}
+.profile {
+  grid-area: profile;
+  background-color: hsl(235, 46%, 20%);
+}
+.profile img {
+  width: 60px;
+  border-color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+.profile h5 {
+  color: hsl(236, 100%, 87%);
+  margin-bottom: 2px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+.profile h4 {
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.header {
+  position: relative;
+}
+.weekly {
+  color: white;
+}
+.timeselector {
+  color: hsl(236, 100%, 87%);
+  position: absolute;
+  height: 50px;
+  padding-top: 100px;
+  margin-left: 20px;
+}
+h3 {
+  padding: 20px;
+  font-weight: 500;
+}
+span {
+  position: relative;
+  right: -115px;
+}
+h4 {
+  padding: 20 20 0 20px;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+p {
+  color: hsl(236, 100%, 87%);
+  padding: 20px;
+}
+.orange {
+  background-color: hsl(15, 100%, 70%);
+  /* height: 100px; */
+}
+.img-icon {
+  position: relative;
+  right: -140px;
+}
+.work {
+  grid-area: work;
+  background-color: hsl(235, 46%, 20%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+  height: 160px;
+}
+.play {
+  grid-area: play;
+  background-color: hsl(235, 46%, 20%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+  height: 160px;
+}
+.blue {
+  background-color: hsl(195, 74%, 62%);
+}
+.study {
+  grid-area: study;
+  background-color: hsl(235, 46%, 20%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+  height: 160px;
+}
+.red {
+  background-color: hsl(348, 100%, 68%);
+  /* height: 20%; */
+}
+.exercise {
+  grid-area: exercise;
+  background-color: hsl(235, 46%, 20%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+  height: 160px;
+}
+.green {
+  background-color: hsl(145, 58%, 55%);
+  /* height: 20%; */
+}
+.social {
+  grid-area: social;
+  background-color: hsl(235, 46%, 20%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+  height: 160px;
+}
+.purple {
+  background-color: hsl(264, 64%, 52%);
+}
+.selfcare {
+  grid-area: selfcare;
+  background-color: hsl(235, 46%, 20%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+  height: 160px;
+}
+.yellow {
+  background-color: hsl(43, 84%, 65%);
+}
