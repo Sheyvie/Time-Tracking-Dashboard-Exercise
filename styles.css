@@ -37,10 +37,10 @@ body {
 }
 .profile img {
   width: 60px;
-  border-color: white;
-  padding: 10px;
   margin-top: 20px;
-  border-radius: 100px;
+  margin-left: 10px;
+  border-radius: 50px;
+  border: 2px solid white;
 }
 .profile h5 {
   color: hsl(236, 100%, 87%);
@@ -58,6 +58,9 @@ body {
 }
 .header {
   position: relative;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 10px;
+  height: 300px;
 }
 .weekly {
   color: white;
@@ -66,8 +69,16 @@ body {
   color: hsl(236, 100%, 87%);
   position: absolute;
   height: 50px;
-  padding-top: 100px;
+  padding-top: 10px;
   margin-left: 20px;
+  padding-bottom: 20px;
+}
+label {
+  display: flex;
+  align-items: space-between;
+}
+label:hover {
+  color: white;
 }
 h3 {
   padding: 20px;
@@ -104,6 +115,9 @@ p {
   border-radius: 10px;
   height: 160px;
 }
+.work:hover {
+  background-color: hsl(235, 62%, 58%);
+}
 .play {
   grid-area: play;
   background-color: hsl(235, 46%, 20%);
@@ -112,6 +126,9 @@ p {
   width: 100%;
   border-radius: 10px;
   height: 160px;
+}
+.play:hover {
+  background-color: hsl(235, 62%, 58%);
 }
 .blue {
   background-color: hsl(195, 74%, 62%);
@@ -124,6 +141,9 @@ p {
   width: 100%;
   border-radius: 10px;
   height: 160px;
+}
+.study:hover {
+  background-color: hsl(235, 62%, 58%);
 }
 .red {
   background-color: hsl(348, 100%, 68%);
@@ -138,6 +158,9 @@ p {
   border-radius: 10px;
   height: 160px;
 }
+.exercise:hover {
+  background-color: hsl(235, 62%, 58%);
+}
 .green {
   background-color: hsl(145, 58%, 55%);
   /* height: 20%; */
@@ -151,6 +174,9 @@ p {
   border-radius: 10px;
   height: 160px;
 }
+.social:hover {
+  background-color: hsl(235, 62%, 58%);
+}
 .purple {
   background-color: hsl(264, 64%, 52%);
 }
@@ -162,6 +188,9 @@ p {
   width: 100%;
   border-radius: 10px;
   height: 160px;
+}
+.selfcare:hover {
+  background-color: hsl(235, 62%, 58%);
 }
 .yellow {
   background-color: hsl(43, 84%, 65%);
